@@ -1,0 +1,218 @@
+/***** BASE *****/
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+fieldset {
+    margin: 1.5em 0;
+}
+
+form label {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.panel-form form input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 0.35rem #51adaf;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.button-place {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1.56rem 3.125rem;
+    background-color: rgba(80, 163, 167, 0.9);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+/***** HEADER *****/
+header {
+    background-image: url("../img/destaque.jpeg");
+    background-color: #777777;
+    /* usado se a img nao carregar */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem;
+}
+
+header ul {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.7rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    transition: background-color 0.5s;
+
+}
+
+ul li a:hover {
+    background-color: rgba(80, 163, 167, 0.8);
+}
+
+header .jumbotron {
+    text-align: center;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+header .panel-main {
+    color: white;
+    text-shadow: 0.25rem 0.25rem 0.6rem black;
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+}
+
+.jumbotron h2 {
+    font-size: 2.6em;
+    color: #64FF64;
+    margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 650px) {
+    header .jumbotron {
+        font-size: 28px;
+    }
+}
+
+/***** MAIN *****/
+/*** ABOUT SECTION ***/
+
+.about-section {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    line-height: 2rem;
+}
+
+.about-section h3 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+/***** SPEAKERS SECTION *****/
+.speakers-section {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    background-color: #f17e50;
+    text-align: center;
+}
+
+.speakers-section h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.speakers-section h3 {
+    font-size: 1.75rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.speakers-section ul li {
+    float: center;
+    display: inline-block;
+    width: 250px;
+    padding: 2rem;
+    border: 1px white solid;
+    margin: 0.5rem 0.5rem;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    vertical-align: top;
+}
+
+.speakers-section ul li figure img {
+    border-radius: 50%;
+}
+
+.speaker-name {
+    margin-top: 1rem;
+}
+
+.speaker-bio {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.speaker-speech {
+    margin-top: 1rem;
+}
+
+/***** FORMULARIO SECTION *****/
+.panel-form {
+    padding: 0.5rem 0;
+    margin: 0.5rem auto;
+}
+
+.panel-form h2 {
+    font-size: 2rem;
+    color: #f17e50;
+    text-align: center;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+.panel-form .button {
+    display: block;
+    margin: 0 auto;
+}
